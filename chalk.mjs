@@ -11,3 +11,11 @@ const warning = chalk.hex('#FFA500'); // Orange color
 
 console.log(error('Error!'));
 console.log(warning('Warning!'));
+
+//
+
+console.log(`
+CPU: ${chalk.red('90%')}
+RAM: ${chalk.green('40%')}
+DISK: ${chalk.yellow('70%')}
+`);
